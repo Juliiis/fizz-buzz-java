@@ -20,7 +20,7 @@ public class FizzBuzzTest {
     }
 
     @Test
-    void return_the_number_multiple_for_three(){
+    void return_fizz_for_the_numbers_multiple_for_three(){
         //arrange
         int input = 3;
         FizzBuzz newObject = new FizzBuzz();
@@ -30,4 +30,5 @@ public class FizzBuzzTest {
         //assert
         assertThat(result).isEqualTo(correctResult);
     }
+
 }
