@@ -41,4 +41,15 @@ public class FizzBuzzTest {
 
         assertThat(result).isEqualTo(correctResult);
     }
+
+    @Test
+    void return_fizzbuzz_for_the_numbers_multiple_for_five_and_three(){
+        int input = 30;
+        FizzBuzz newObject = new FizzBuzz();
+        String correctResult = "FizzBuzz";
+
+        String result = newObject.fizzBuzz(input);
+
+        assertThat(result).isEqualTo(correctResult);
+    }
 }
