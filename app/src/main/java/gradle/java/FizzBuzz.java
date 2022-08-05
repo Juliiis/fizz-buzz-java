@@ -1,6 +1,8 @@
 package gradle.java;
 
+
 public class FizzBuzz {
+
     public String fizzBuzz(int number){
 
         if(number % 15 == 0){
