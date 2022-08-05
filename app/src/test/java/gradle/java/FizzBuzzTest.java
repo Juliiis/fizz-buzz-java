@@ -18,4 +18,16 @@ public class FizzBuzzTest {
         //assert
         assertThat(result).isEqualTo(correctResult);
     }
+
+    @Test
+    void return_the_number_multiple_for_three(){
+        //arrange
+        int input = 3;
+        FizzBuzz newObject = new FizzBuzz();
+        String correctResult = "Fizz";
+        //act
+        String result = newObject.fizzBuzz(input);
+        //assert
+        assertThat(result).isEqualTo(correctResult);
+    }
 }
